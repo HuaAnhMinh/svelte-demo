@@ -13,6 +13,7 @@
 	import Example10 from './Example-10.svelte';
 	import Example11 from './Example-11.svelte';
 	import Example12 from './Example-12.svelte';
+	import Example13 from './Example-13.svelte';
 </script>
 
 <style>
@@ -50,6 +51,7 @@
 				<p><Link to="/10">Example 10</Link></p>
 				<p><Link to="/11">Example 11</Link></p>
 				<p><Link to="/12">Example 12</Link></p>
+				<p><Link to="/13">Example 13</Link></p>
 			</nav>
 		</div>
 		<div class="contents">
@@ -65,6 +67,7 @@
 			<Route path="/10" component="{Example10}" />
 			<Route path="/11" component="{Example11}" />
 			<Route path="/12" component="{Example12}" />
+			<Route path="/13" component="{Example13}" />
 		</div>
 	</div>
 </Router>
